@@ -3,52 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mimondo - World Building IA</title>
+    <title>Mimondo - Atlas Inteligente</title>
     <style>
-        /* Estilos básicos para que no se vea vacío */
-        body { 
-            font-family: 'Segoe UI', sans-serif; 
-            background-color: #0f172a; /* El fondo azul oscuro */
-            color: white; 
-            margin: 0; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-            justify-content: center; 
+        :root {
+            --bg-app: #e9ecef; /* El gris claro de fondo de tu app */
+            --accent-blue: #a5d8ff; /* El azul suave de tus botones */
+            --text-dark: #495057;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg-app);
+            color: var(--text-dark);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             min-height: 100vh;
+        }
+
+        /* Estilo de la tarjeta principal (parecida a la Bitácora) */
+        .app-card {
+            background: var(--white);
+            border-radius: 24px;
+            padding: 40px;
+            width: 90%;
+            max-width: 700px;
+            margin-top: 50px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
             text-align: center;
         }
-        .container {
+
+        .logo-container {
+            margin-top: -90px; /* Sube el logo para que sobresalga */
+        }
+
+        .logo-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 8px solid var(--bg-app);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 { font-weight: 800; letter-spacing: 1px; color: #339af0; margin: 20px 0 5px 0; }
+        .subtitle { font-size: 0.9rem; font-weight: bold; color: #adb5bd; text-transform: uppercase; margin-bottom: 30px; }
+
+        .info-section {
+            text-align: left;
+            background: #f8f9fa;
             padding: 20px;
-            max-width: 600px;
+            border-radius: 15px;
+            margin-bottom: 30px;
         }
-        h1 { color: #38bdf8; font-size: 3rem; margin-bottom: 10px; }
-        p { font-size: 1.2rem; color: #94a3b8; line-height: 1.5; }
-        .links { margin-top: 30px; }
-        .links a { 
-            color: #38bdf8; 
-            text-decoration: none; 
-            margin: 0 10px; 
-            font-size: 0.9rem;
-            border: 1px solid #38bdf8;
-            padding: 5px 10px;
-            border-radius: 5px;
+
+        /* Botón estilo "Sincronizar Realidad" */
+        .btn-sync {
+            background-color: var(--accent-blue);
+            color: #1c7ed6;
+            padding: 15px 40px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 0px #74c0fc;
         }
-        .links a:hover { background: #38bdf8; color: #0f172a; }
+
+        .btn-sync:hover {
+            transform: translateY(-2px);
+            background-color: #74c0fc;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        footer a {
+            color: #adb5bd;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 600;
+        }
+
+        footer a:hover { color: #339af0; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Mimondo 🌍</h1>
-        <p>Bienvenido a la herramienta indie de world building potenciada por Google Gemini.</p>
-        <p>Usa el poder de la IA para crear universos y guarda todo de forma privada en tu Google Drive.</p>
-        
-        <div class="links">
-            <a href="privacy.html">Privacidad</a>
-            <a href="terms.html">Términos</a>
+    <div class="app-card">
+        <div class="logo-container">
+            <img src="mimondo_icon.jpg" alt="Mimondo Logo" class="logo-img">
         </div>
+
+        <h1>MIMONDO</h1>
+        <div class="subtitle">ATLAS INTELIGENTE</div>
+
+        <p style="color: #868e96; line-height: 1.6;">
+            Narra, conecta y expande tus historias con el poder de Google Gemini IA. 
+            Toda tu realidad archivada de forma privada en tu Google Drive.
+        </p>
+
+        <div class="info-section">
+            <p style="margin: 0; font-size: 0.85rem; color: #adb5bd; font-weight: bold;">MÓDULOS ACTIVOS:</p>
+            <p style="margin: 5px 0 0 0; color: #495057;">✨ Bitácora, Atlas, Cronos y Astros.</p>
+        </div>
+
+        <a href="#" class="btn-sync">
+            <span>⬇️</span> DESCARGAR APLICACIÓN
+        </a>
+        
+        <p style="font-size: 0.75rem; color: #adb5bd; margin-top: 15px;">
+            Disponible para Windows (.exe) y Android (.apk)
+        </p>
     </div>
+
+    <footer>
+        <a href="privacy.html">PRIVACIDAD</a>
+        <a href="terms.html">TÉRMINOS</a>
+        <a href="#">SECURITY.MD</a>
+    </footer>
 
 </body>
 </html>
