@@ -14,8 +14,8 @@
 
 ## 📄 Enlaces legales
 Para cumplir con los requisitos de verificación de Google, puedes consultar:
-* [Política de Privacidad](https://tu-usuario.github.io/mimondo/privacy.html)
-* [Términos de Servicio](https://tu-usuario.github.io/mimondo/terms.html)
+* [Política de Privacidad]https://mimondoapp.github.io/privacy.html
+* [Términos de Servicio]https://mimondoapp.github.io/terms.html
 
 ---
 Creado con ❤️ para creadores de mundos.
