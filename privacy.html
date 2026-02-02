@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Mimondo</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .highlight { background-color: #f8f9fa; padding: 15px; border-left: 5px dotted #3498db; }
+    </style>
+</head>
+<body>
 
+    <h1>Política de Privacidad de Mimondo</h1>
+    <p>Última actualización: 2 de febrero de 2026</p>
+
+    <p>Mimondo es una aplicación de creación de mundos (world building) que prioriza la privacidad del usuario. Esta política describe cómo se gestionan tus datos a través de los servicios de Google.</p>
+
+    <h2>1. Uso de Google Drive API</h2>
+    <p>Mimondo utiliza la API de Google Drive para permitirte almacenar tus proyectos de forma segura. Los permisos específicos (Scopes) solicitados son:</p>
+    <ul>
+        <li><strong>.../auth/drive.file:</strong> Permite a la app crear y editar únicamente los archivos que tú decidas abrir o crear con Mimondo. No tenemos acceso al resto de tus archivos en Drive.</li>
+        <li><strong>.../auth/drive.appdata:</strong> Se utiliza para guardar configuraciones personalizadas de la aplicación en una carpeta oculta y privada dentro de tu propio Drive, a la cual solo tú tienes acceso.</li>
+    </ul>
+
+    <h2>2. Información de Perfil e Identidad</h2>
+    <p>Utilizamos los permisos <strong>openid</strong>, <strong>userinfo.email</strong> y <strong>userinfo.profile</strong> para:</p>
+    <ul>
+        <li>Identificar tu sesión y mostrar tu nombre de usuario dentro de la aplicación.</li>
+        <li>Personalizar tu experiencia de usuario con tu imagen de perfil.</li>
+        <li>Asegurar que los archivos guardados en Drive se vinculen correctamente a tu cuenta.</li>
+    </ul>
+
+    <div class="highlight">
+        <h2>3. Transparencia sobre Google Gemini</h2>
+        <p>Mimondo no proporciona una clave de IA centralizada. <strong>Cada usuario debe ingresar su propia API KEY de Google Gemini manualmente.</strong></p>
+        <p>Esta clave se almacena únicamente de forma local en el navegador del usuario y nunca se envía a nuestros servidores. Los textos enviados para generar contenido son procesados directamente por la infraestructura de Google AI Studio.</p>
+    </div>
+
+    <h2>4. Propiedad y Almacenamiento de Datos</h2>
+    <p><strong>Nosotros no almacenamos tus datos:</strong> Mimondo no posee servidores de bases de datos externos. Toda la información de tus mundos reside exclusivamente en tu cuenta de Google Drive personal.</p>
+    <p>Como desarrolladores, no tenemos capacidad técnica para leer, copiar o vender tus datos o los mundos que construyas.</p>
+
+    <h2>5. Eliminación de datos</h2>
+    <p>Puedes revocar el acceso de Mimondo en cualquier momento a través de la configuración de seguridad de tu cuenta de Google. Al hacerlo, la app perderá acceso a tus archivos, pero estos permanecerán en tu unidad de Drive bajo tu control.</p>
+
+    <h2>6. Contacto</h2>
+    <p>Si tienes preguntas sobre esta política, puedes contactarnos en: <strong>[TU_CORREO_AQUÍ]</strong></p>
+
+</body>
+</html>
