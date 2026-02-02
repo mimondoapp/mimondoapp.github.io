@@ -2,7 +2,8 @@
 
 **Mimondo** es una herramienta indie de *world building* potenciada por la IA de **Google Gemini**. Permite a escritores y creadores organizar sus universos de forma privada y segura.
 * [Web](https://mimondoapp.github.io/index.html)
-
+Prueba la app en tu navegador!
+* [Google IA Studio](https://ai.studio/apps/drive/1TvpDmlMJOJ_sxH-rAKucwTHL49LYTzsW?fullscreenApplet=true)
 ## 🚀 Características
 * **Integración con Gemini:** Generación de mitologías, personajes y geografías usando tu propia API Key.
 * **Privacidad total:** Los datos se guardan directamente en tu **Google Drive** personal.
